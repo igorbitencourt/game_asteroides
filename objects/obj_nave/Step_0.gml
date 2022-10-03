@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+
 if keyboard_check(vk_up){
 	sprite_index = spr_nave_movendo;
 	speed = 2;
