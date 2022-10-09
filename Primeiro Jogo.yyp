@@ -5,6 +5,8 @@
   "resources": [
     {"id":{"name":"spr_nave_parada","path":"sprites/spr_nave_parada/spr_nave_parada.yy",},"order":0,},
     {"id":{"name":"obj_nave","path":"objects/obj_nave/obj_nave.yy",},"order":0,},
+    {"id":{"name":"obj_projetil","path":"objects/obj_projetil/obj_projetil.yy",},"order":1,},
+    {"id":{"name":"spr_projetil","path":"sprites/spr_projetil/spr_projetil.yy",},"order":2,},
     {"id":{"name":"spr_nave_movendo","path":"sprites/spr_nave_movendo/spr_nave_movendo.yy",},"order":1,},
     {"id":{"name":"Ambiente1","path":"rooms/Ambiente1/Ambiente1.yy",},"order":0,},
   ],
