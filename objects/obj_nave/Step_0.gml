@@ -1,21 +1,21 @@
 
 if keyboard_check(vk_up){
 	sprite_index = spr_nave_movendo;
-	speed = 2;
+	speed = veloc;
 }else if keyboard_check(vk_down){
 	sprite_index = spr_nave_movendo;
-	speed = -2;
+	speed = -veloc;
 }else {
 	sprite_index = spr_nave_parada;
-	speed = 0;
+	speed = lerp(speed, 0, 0.05);
 }
 
 if keyboard_check(vk_left){
-	direction += 3;
-}
-
-if keyboard_check(vk_right){
-	direction -= 3;
+	direc = 3;
+}else if keyboard_check(vk_right){
+	direc = -3;
+}else {
+	direc = lerp(direc, 0, 0.08)
 }
 
 if keyboard_check_pressed(vk_space){
@@ -25,6 +25,7 @@ if keyboard_check_pressed(vk_space){
 	inst.image_angle = direction;
 }
 
+direction += direc;
 image_angle = direction;
 
 move_wrap(true, true, 0)

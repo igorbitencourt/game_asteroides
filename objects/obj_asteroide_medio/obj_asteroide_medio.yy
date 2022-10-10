@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_asteroide_grande",
+  "name": "obj_asteroide_medio",
   "spriteId": {
-    "name": "spr_asteroide_grande",
-    "path": "sprites/spr_asteroide_grande/spr_asteroide_grande.yy",
+    "name": "spr_asteroide_medio",
+    "path": "sprites/spr_asteroide_medio/spr_asteroide_medio.yy",
   },
   "solid": false,
   "visible": true,
