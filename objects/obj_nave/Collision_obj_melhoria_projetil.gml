@@ -1,11 +1,12 @@
 /// @description Insert description here
-var _dano = dano;
+alarm[2] = 300;
+
+dano_nave = 2;
+
 with (other) {
-	vida -= _dano;
+	instance_destroy();
 }
 
-
-instance_destroy();
 
 
 
