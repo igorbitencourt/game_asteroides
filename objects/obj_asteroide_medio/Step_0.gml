@@ -9,6 +9,11 @@ if vida <= 0 {
 		instance_create_layer(x, y, "Instances", obj_asteroide_pequeno)
 	}
 	
+		repeat(8) {
+		instance_create_layer(x, y, "Instances", obj_detritos)
+	}
+	
+	
 	instance_destroy();
 }
 
