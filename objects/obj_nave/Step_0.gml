@@ -19,6 +19,7 @@ if keyboard_check(vk_left){
 }
 
 if keyboard_check_pressed(vk_space){
+	audio_play_sound(snd_projetil, 1, false);
 	var inst = instance_create_layer(x, y, "Instances", obj_projetil);
 	inst.speed = 6;
 	inst.direction = direction;
@@ -45,4 +46,8 @@ if alarm[0] > 0{
 
 if vida <= 0 {
 	game_restart();
+}
+
+if global.pont >= 1000 {
+	room_goto(rm_final);
 }

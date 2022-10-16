@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "snd_explosao",
   "conversionMode": 0,
-  "compression": 1,
+  "compression": 0,
   "type": 0,
   "sampleRate": 44100,
   "bitDepth": 1,
